@@ -8,7 +8,9 @@ on:
 
 jobs:
   build:
+    name: Build e Testes CI
     runs-on: ubuntu-latest
+
 
     steps:
       - name: Checkout do código
